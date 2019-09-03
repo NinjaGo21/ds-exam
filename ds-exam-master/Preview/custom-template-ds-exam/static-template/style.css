@@ -45,10 +45,14 @@ header nav li a{
     text-decoration: none;
     color: #fff;
 }
-
+#main-banner {
+    
+}
 #feature{
     margin-top: 100px;
     text-align: center;
+    height: 100%;
+    min-height: 600px;
 }
 #feature ul{
     padding: 0;
@@ -67,4 +71,100 @@ header nav li a{
     color: #333;
     text-decoration: none;
     float: left;
+}
+#feature li a.resort {
+    width: 100%;
+    font-weight: bold;
+}
+
+
+#provide {
+    background-image: url(images/thumb_9.png);
+    min-height: 314px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+#whyus {
+    text-align: center;
+    min-height: 350px;
+    padding-top: 45px;
+}
+#whyus li{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    list-style-type: none;
+}
+#partners{
+    min-height: 240px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 45px;
+}
+#partners li{
+    float: left;
+    width: 14%;
+    margin: 1%;
+    list-style-type: none;
+}
+#clients{
+    min-height: 311px;
+    text-align: center;
+    padding-top: 45px;
+}
+#clients ul{
+    padding-top: 30px;
+    padding-left: 0px;
+    height: -webkit-fill-available;
+}
+#clients li{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    list-style-type: none;
+}
+#clients li.btn{
+    width: 100%;
+    margin-top: 4%;
+    list-style-type: none;
+}
+#clients li img{
+    float: left;
+    margin-right: 36px;
+}
+#clients li span.comment, #clients li span.name{
+    float: left;
+    width: 230px;
+    text-align: left;
+}
+ #clients li span.name{
+    float: right !important;
+     padding-top: 30px
+} 
+
+footer{
+    background-color: #212121;
+    height: 65px;
+    max-height: 65px;
+}
+footer nav{
+    float: right;
+}
+footer nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+footer nav li{
+    float: left;
+    list-style-type: none;
+    margin: 0px 20px;
+}
+footer nav li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
 }
