@@ -13,19 +13,20 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'custom-template-ds-exam' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'custom-template-ds-exam' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'custom-template-ds-exam' ), 'custom-template-ds-exam', '<a href="http://underscores.me/">Elgo Wence Cabatana</a>' );
-				?>
+	<footer>
+		<div class="wrapper">
+            
+            <h1 class="logo">CrazyDemo</h1>
+                <nav>
+                    <h2>Links</h2>
+                    <ul>
+                        <li><img src="<?php echo(get_template_directory_uri());?>/images/thumb_25.png"></li>
+                        <li><img src="<?php echo(get_template_directory_uri());?>/images/thumb_26.png"></li>
+                        <li><img src="<?php echo(get_template_directory_uri());?>/images/thumb_27.png"></li>
+                        <li><img src="<?php echo(get_template_directory_uri());?>/images/thumb_28.png"></li>
+                    </ul>
+                </nav>
+            
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
