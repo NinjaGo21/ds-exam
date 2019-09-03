@@ -614,15 +614,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #fff;
 }
 
 a:visited {
-	color: purple;
+	color: #fff;
 }
 
 a:hover, a:focus, a:active {
-	color: midnightblue;
+	color: #fff;
 }
 
 a:focus {
@@ -982,4 +982,75 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+/* ---------------------  additional theme style */
+body{
+	font-family: Poppins;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1180px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+h1.logo{
+	background-image: url(images/thumb_1.png);
+	background-repeat: no-repeat;
+	width: 219px;
+	height: 54px;
+	text-indent: -10000px;
+	float: left;
+	margin-bottom: unset;
+	margin-top: 7px;
+}
+header{
+	background-color: #212121;
+	height: 65px;
+	max-height: 65px;
+}
+header nav{
+	float: right;
+}
+header nav h2{
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+header nav li{
+	float: left;
+	list-style-type: none;
+	margin: 10px 20px;
+}
+header nav li span{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+header nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#feature{
+	margin-top: 100px;
+	text-align: center;
+}
+#feature ul{
+	padding: 0;
+}
+#feature li{
+	float: left;
+	width: 23%;
+	margin: 1%;
+	list-style-type: none;
+}
+#feature li img{
+	width: 100%;
+	margin-bottom:10px;
+}
+#feature li a{
+	color: #333;
+	text-decoration: none;
+	float: left;
 }
