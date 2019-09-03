@@ -1096,9 +1096,9 @@ header nav li a{
 	list-style-type: none;
 }
 #clients{
-	min-height: 311px;
+	min-height: 168px;
 	text-align: center;
-	padding-top: 45px;
+	padding-top: 44px;
 }
 #clients ul{
 	padding-top: 30px;
